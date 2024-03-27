@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Order</title>
+    <link rel="stylesheet" href="payment.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"  href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHt0A93w35dYTsvhLPVnYs9eStHfGJv0vKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="header1">
+        <div class="container1">
+            <div class="navbar">
+                <div class="logo">
+                <img src="https://cdn4.vectorstock.com/i/1000x1000/09/53/skin-care-logo-inspiration-vector-31020953.jpg" width="125px" height="90px">
+     </div>
+            <nav>
+                <ul>
+                    <li><a href ="index.html">Home</a></li>
+                    <li><a href ="products.html">Products</a></li>
+                    <li><a href ="about.html">About Us</a></li>
+                    <li><a href ="contact.html">Contact</a></li>
+                    <li><a href="login.html"><button type="button" class ="btnlogin-popup">Login</button></a></li>
+                   <li> <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <li><div class="search"> 
+                        <form action = "#">
+                            <input type = "text" placeholder ="Search..." name = "search">
+                            
+                        </form>
+                    </li>
+                    </div>
+                    
+                </ul>
+            </nav>
+    <header>
+        
+        <div class="container">
+            <div class="left">
+                <h3>BILLING ADDRESS</h3>
+                <form>
+                    Full name 
+                    <input type="text" name="" placeholder="Enter name">
+                    Email
+                    <input type="text" name="" placeholder="Enter email">
+                    Address
+                    <input type="text" name="" placeholder="Enter address">
+                    City
+                    <input type="text" name="" placeholder="Enter city">
+                    
+                    <div id="zip">
+                        <label>
+                            State
+                            <select>
+                                <option>Choose State...</option>
+                                <option>Rajasthan</option>
+                                <option>Hariyana</option>
+                                <option>Uttar Pradesh</option>
+                                <option>Madhya Pradesh</option>
+                                <option>Jharkhand</option>
+                            </select>
+                        </label>
+                        <label>
+                            Pin code 
+                            <input type = "number" name="" placeholder="pin code">
+                        </label>
+                    </div>
+                </form>
+            </div>
+            <div class="right">
+                <h3>PAYMENT</h3>
+                <form>
+                    
+                   Accepted card 
+                   <br>
+                   <img src="https://freepngimg.com/thumb/categories/677.png" width="40">
+                   <img src="https://www.investopedia.com/thmb/3H96L9iC_VUhvsqmnypxfEQW4UA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/full-color-800x450-cee226a48bed4177b90351075b332227.jpg" width="50">
+                   <br><br>
+                    
+                    Credit Card Number
+                    <input type="text" name="" placeholder="Enter card number">
+                    Exp Month
+                    <input type="text" name="" placeholder="Enter month">
+                    City
+                    <input type="text" name="" placeholder="Enter city">
+                    
+                    <div id="zip">
+                        <label>
+                            Exp Year
+                            <select>
+                                <option>Choose Year...</option>
+                                <option>2023</option>
+                                <option>2024</option>
+                                <option>2025</option>
+                                <option>2026</option>
+                                <option>2027</option>
+                            </select>
+                        </label>
+                        <label>
+                            CVV
+                            <input type = "number" name="" placeholder=" CVV">
+                        </label>
+                    </div>
+                </form>
+                <input type="submit" value="Proceed to Checkout">
+            </div>
+        </div>
+    </header>
+</body>
+</html>
